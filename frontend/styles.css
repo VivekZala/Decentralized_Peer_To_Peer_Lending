@@ -1,0 +1,198 @@
+/* .container-fluid {
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+h1 {
+  font-size: 50px !important;
+  background: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+}
+
+h3 {
+  color: #edd;
+  font-size: 40px;
+  background: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+}
+
+h4 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.login-area {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.input-group-text i {
+  font-size: 13px !important;
+  color: #777;
+  text-align: center;
+}
+
+.input-group-text {
+  width: 40px !important;
+  background-color: #f4f4f4 !important;
+}
+
+input,
+.input-group-text {
+  border: 1px solid #f0f0f0 !important;
+}
+
+button {
+  font-weight: 800 !important;
+}
+
+.content,
+form {
+  position: relative;
+  top: 20vh;
+  padding: 0 30px;
+}
+
+form {
+  top: 30vh;
+}
+
+.content .brand {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+@media (min-width: 300px) and (max-width: 12000px) {
+  .bg-login {
+    display: block;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 300px) {
+  .bg-login {
+    display: none;
+  }
+} */
+
+/*  Edited */
+
+/* Global Styles */
+
+body {
+  min-height: 100vh;
+  display: flex; /* Use flexbox for centered layout */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+  justify-content: center; /* Center elements vertically within viewport */
+  background-color: #F2F2F2; /* Light gray background */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+
+h1,
+h3 {
+  background-color: transparent; /* Remove background color */
+  display: block; /* Display on new line */
+  margin-bottom: 10px; /* Add spacing between headings */
+}
+
+h1 {
+  font-size: 40px;
+  color: #333; /* Dark gray */
+}
+
+h3 {
+  font-size: 30px;
+  color: #666; /* Lighter gray */
+}
+
+/* Login Area */
+
+.login-area {
+  background-color: #FFF; /* White background for form */
+  padding: 30px; /* Add padding for content */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box-shadow */
+}
+
+/* Form Styles */
+
+form {
+  display: flex; /* Arrange form elements horizontally */
+  flex-direction: column; /* Stack elements vertically within the form */
+  width: 100%; /* Allow form to fill container width */
+}
+
+input,
+.input-group-text {
+  border: 1px solid #CCC; /* Lighter border color */
+  padding: 10px; /* Increase padding for better input area */
+  margin-bottom: 15px; /* Add spacing between form elements */
+}
+
+.input-group-text {
+  width: 50px; /* Adjust width of input group text */
+  background-color: #EEE; /* Lighter background for input group */
+  text-align: center;
+}
+
+.input-group-text i {
+  font-size: 16px; /* Increase icon size for better visibility */
+  color: #333; /* Dark gray for icon */
+}
+
+button {
+  background-color: #0095FF; /* Blue background for button */
+  color: #FFF; /* White text */
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px; /* Add spacing after form elements */
+  transition: background-color 0.2s ease-in-out; /* Add hover effect */
+}
+
+button:hover {
+  background-color: #3498db; /* Darker blue on hover */
+}
+
+/* Content Styles (assuming content section below login) */
+
+.content {
+  margin-top: 30px; /* Add spacing after login area */
+  text-align: center; /* Center content text */
+}
+
+.content .brand {
+  color: #333; /* Dark gray for brand name */
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: #0095FF; /* Blue link color */
+}
+
+a:visited {
+  color: #0095FF; /* Maintain blue color for visited links */
+}
+
+/* Media Queries (consider adding your specific breakpoints here) */
+
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens (optional) */
+}
